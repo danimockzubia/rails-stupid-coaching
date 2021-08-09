@@ -1,0 +1,23 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ $gray: #e1edf1;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .card {
+   width: 500px;
+   background: rgb(255, 255, 255);
+   padding: 30px;
+   border-radius: 5px;
+   font-size: 30px;
+   margin: 30px;
+ }
